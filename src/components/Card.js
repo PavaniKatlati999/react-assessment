@@ -1,15 +1,15 @@
 // File: Card.jsx
 
-import React from "react";
+import React from 'react';
 
-function Card() {
+function Card({ imageUrl, text }) {
   return (
     <div className="w-[136px] h-[200px] bg-black rounded-3xl relative">
       <div
         className="absolute w-[116px] h-[110px] top-[7px] left-[13px]"
         style={{
           borderRadius: "12.67px 12.67px 0px 0px",
-          backgroundImage: "url(/images/image1.png)", // Ensure this path is correct
+          backgroundImage: `url(${imageUrl})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -23,10 +23,9 @@ function Card() {
           className="font-lato text-[14px] font-semibold leading-[16.8px] text-center"
           style={{ color: "#FFFFFF" }}
         >
-          Agile Project Management
+          {text}
         </p>
       </div>
-      
     </div>
   );
 }
