@@ -17,7 +17,7 @@ const StatictsComponent = () => {
         <h1 className="text-#101828">Our Statistics</h1>
       </div>
 
-      <div className="p-8 grid grid-cols-2 gap-4">
+      <div className="p-4 grid grid-cols-2 gap-4">
         {items.map((item, index) => (
           <StaticsCard key={index} course={item.course} rating={item.rating} />
         ))}

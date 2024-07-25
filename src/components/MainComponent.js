@@ -17,7 +17,7 @@ const MainComponent = () => {
         </div>
 
         <div
-          className="top-[90px] left-[252px] w-[126px] h-[13px] font-lato text-[12px] font-bold leading-[13.2px] tracking-[0.04em] text-center"
+          className="top-[99px] left-[352px] w-[481px] h-[29px] font-lato text-[12px] font-bold leading-[13.2px] tracking-[0.04em] text-center"
           style={{ color: "#FFFFFF" }}
         >
           AI-Powered Learning.
@@ -31,7 +31,7 @@ const MainComponent = () => {
         </div>
 
         <div
-          className="top-[142px] left-[145px] w-[98px] h-[9px] font-lusitana text-[12px] font-bold leading-[4.75px] tracking-[0.04em] text-center"
+          className="top-[142px] left-[145px] w-[258px] h-[9px] font-lusitana text-[12px] font-bold leading-[4.75px] tracking-[0.04em] text-center"
           style={{ color: "#FFFFFF" }}
         >
           for Super Skills!
